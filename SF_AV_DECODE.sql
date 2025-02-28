@@ -17,6 +17,6 @@ AS '
   *********************************************************************
   */
     SELECT MAX(VALUE_SHORT_DESC)
-    FROM T_ALLOWABLE_VALUES
+    FROM TEST.PUBLIC.T_ALLOWABLE_VALUES
     WHERE AV_ID = IN_AV_ID
 ';
